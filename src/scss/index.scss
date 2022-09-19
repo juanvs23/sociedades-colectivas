@@ -49,14 +49,18 @@
 
   .colective-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+    min-width: 100%;
+    min-height: 40vh;
     @media (max-width: 767px) {
       grid-template-columns: repeat(1, 1fr);
     }
   }
   .asipi-colective-society {
-    margin-bottom: 70px;
+    padding-bottom: 110px;
+    padding-bottom: 110px;
+    min-height: 30vh;
   }
   .descrition-content p {
     text-align: justify;
@@ -75,10 +79,11 @@
         max-width: 218px;
         margin: auto;
         text-align: center;
+        background: no-repeat;
         img.loader-circle {
-          width: 80px;
-          margin: auto;
-          margin-bottom: 10px;
+          margin: auto auto 10px;
+          max-width: 80px;
+          background: none;
         }
         p {
           margin-bottom: 0;
@@ -118,6 +123,7 @@
       }
       a {
         color: black;
+        font-size: 18px;
         &:hover {
           color: #009e4a;
         }
