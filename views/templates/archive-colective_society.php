@@ -53,7 +53,7 @@ $contenido = $archive_page_content_options['contenido_descriptivo_de_la_pagina_1
                     <?php echo $contenido; ?>
                 </div>
             </div>
-            <div class="right-side">
+            <div class="right-side" style="background-image:url(<?php echo ASIPICOLECTIVESSOCIETY_PLUGIN_URL; ?>assets/img/america.svg);">
             <div id="society-loader">
                 <div class="loading">
                     <img src="<?php echo ASIPICOLECTIVESSOCIETY_PLUGIN_URL; ?>assets/img/rolling-1s-200px.svg" class="loader-circle" alt="loading">
