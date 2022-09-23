@@ -22,6 +22,14 @@
     width: 100%;
     color: #009e4a;
     text-align: center;
+    @media (max-width: 767px) {
+      color: #009e4a;
+      display: block;
+      padding: 20px 0 10px;
+      text-align: center;
+      width: 100%;
+      font-size: 25px;
+    }
   }
   .society-layout {
     display: block;
@@ -165,6 +173,9 @@
   .contentinfo {
     max-width: 450px;
     padding: 20px;
+    margin: 0 7px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
     ul li {
       list-style: none;
       padding: 5px 4px;
@@ -192,5 +203,14 @@
     justify-content: center;
     align-items: center;
     background: rgba(255, 255, 255, 0.6);
+  }
+  .subject-content {
+    padding: 0 15px;
+  }
+  .contentinfo ul {
+    padding-left: 0;
+  }
+  .contentinfo ul li b {
+    color: #009e4a;
   }
 }
