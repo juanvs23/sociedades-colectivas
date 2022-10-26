@@ -33,7 +33,7 @@ if ( ! function_exists( 'asipi_country_origin_function' ) ) {
         );
         $args = array(
             'labels'                     => $labels,
-            'hierarchical'               => true,
+            'hierarchical'               => false,
             'public'                     => true,
             'show_ui'                    => true,
             'show_admin_column'          => true,

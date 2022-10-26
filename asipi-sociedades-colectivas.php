@@ -11,7 +11,7 @@
  * Plugin Name:       Asipi Sociedades Colectivas
  *
  * Description:       Sociedades Colectivas
- * Version:           1.0.3
+ * Version:           2.0.0
  * Author:            Juan Carlos Avila
  * Text Domain:       asipi_colective_society
  *
@@ -19,7 +19,7 @@
 define('ASIPICOLECTIVESSOCIETY_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('ASIPICOLECTIVESSOCIETY_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('ASIPICOLECTIVESSOCIETY_PLUGIN_FILE', __FILE__);
-define('ASIPICOLECTIVESSOCIETY_PLUGIN_VERSION', '1.0.0');
+define('ASIPICOLECTIVESSOCIETY_PLUGIN_VERSION', '2.0.0');
 
 
 //Language domain

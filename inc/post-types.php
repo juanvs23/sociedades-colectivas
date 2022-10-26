@@ -3,9 +3,11 @@ if ( ! function_exists('asipi_colective_society_ctp_register') ) {
 
     // Register Custom Post Type
     function asipi_colective_society_ctp_register() {
+$titulo = get_option('colective_title') && get_option('colective_title')!=''?get_option('colective_title'):'Sociedades Colectivas';
+
     
         $labels = array(
-            'name'                  => _x( 'Sociedades Colectivas', 'Post Type General Name', 'asipi_colective_society' ),
+            'name'                  => _x( $titulo , 'Post Type General Name', 'asipi_colective_society' ),
             'singular_name'         => _x( 'Sociedad Colectiva', 'Post Type Singular Name', 'asipi_colective_society' ),
             'menu_name'             => __( 'Sociedades Colectivas', 'asipi_colective_society' ),
             'name_admin_bar'        => __( 'Sociedades Colectivas', 'asipi_colective_society' ),
