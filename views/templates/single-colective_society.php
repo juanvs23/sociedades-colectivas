@@ -29,10 +29,26 @@ while(have_posts()) : the_post();
             <div class="lef-side">
                 <div class="contentinfo">
                     <ul>
+                        <?php
+                        if($address && $address!=''):
+                        ?>
                         <li><b>Dirección física: </b><?php echo $address;?></li>
+                        <?php endif; ?>
+                        <?php
+                        if($phone && $phone!=''):
+                        ?>
                         <li><b>Teléfono: </b><?php echo $phone;?></li>
-                        <li><b>Sitio Web: </b><a href="<?php echo $website;?>" target="_blank"><?php echo $website;?></a></li>
-                        <li><b>Correo: </b><a href="mailto:<?php echo $email;?>"  target="_blank"><?php echo $email;?></a></li>
+                        <?php endif; ?>
+                        <?php
+                        if($website && $website !=''):
+                        ?>
+                        <li><b>Sitio Web: </b><a style="color:white;" href="<?php echo $website;?>" target="_blank"><?php echo $website;?></a></li>
+                        <?php endif; ?>
+                        <?php
+                        if($email && $email!=''):
+                        ?>
+                        <li><b>Correo: </b><a style="color:white;" href="mailto:<?php echo $email;?>"  target="_blank"><?php echo $email;?></a></li>
+                        <?php endif; ?>
                     </ul>
                 </div>
              </div>

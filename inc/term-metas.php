@@ -198,7 +198,7 @@ class Country_origin{
 ["Panama","PA"],
 ["Papua New Guinea","PG"],
 ["Paraguay","PY"],
-["Peru","PER"],
+["Peru","PE"],
 ["Philippines","PH"],
 ["Pitcairn","PN"],
 ["Poland","PL"],
