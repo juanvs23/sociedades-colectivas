@@ -75,6 +75,56 @@ class ConfiguraciónPaginaPrincipal_Settings_Page {
                         'desc' => 'Sobreescribe el texto de respuesta al no encontrar resultados',
                         'type' => 'text',
                     ),
+					array(
+                        'section' => 'ConfiguraciónPaginaPrincipal_section',
+                        'label' => 'Titulo Dirección',
+                        'placeholder' => 'Dirección fisica:',
+                        'id' => 'address_title',
+                        'desc' => 'Sobreescribe el texto de dirección',
+                        'type' => 'text',
+                    ),
+					array(
+                        'section' => 'ConfiguraciónPaginaPrincipal_section',
+                        'label' => 'Titulo Teléfono',
+                        'placeholder' => 'Teléfono:',
+                        'id' => 'phone_title',
+                        'desc' => 'Sobreescribe el texto del teléfono',
+                        'type' => 'text',
+                    ),
+					array(
+                        'section' => 'ConfiguraciónPaginaPrincipal_section',
+                        'label' => 'Titulo Sitio Web:',
+                        'placeholder' => 'Sitio Web:',
+                        'id' => 'web_title',
+                        'desc' => 'Sobreescribe el texto del campo del sitio web',
+                        'type' => 'text',
+                    ),
+					array(
+                        'section' => 'ConfiguraciónPaginaPrincipal_section',
+                        'label' => 'Titulo Correo',
+                        'placeholder' => 'Correo:',
+                        'id' => 'email_title',
+                        'desc' => 'Sobreescribe el texto de respuesta al no encontrar resultados',
+                        'type' => 'text',
+                    ),
+					array(
+                        'section' => 'ConfiguraciónPaginaPrincipal_section',
+                        'label' => 'Titulo de leyenda país',
+                        'placeholder' => 'País',
+                        'id' => 'country_label',
+                        'desc' => 'Sobreescribe el titulo de la leyenda del país',
+                        'type' => 'text',
+                    ),
+					array(
+                        'section' => 'ConfiguraciónPaginaPrincipal_section',
+                        'label' => 'Titulo de leyenda Sociedades',
+                        'placeholder' => 'Sociedades',
+                        'id' => 'society_label',
+                        'desc' => 'Sobreescribe el titulo de la leyenda de Sociedades',
+                        'type' => 'text',
+                    ),
+					
+				
         
                     array(
                         'section' => 'ConfiguraciónPaginaPrincipal_section',

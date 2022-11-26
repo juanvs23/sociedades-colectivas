@@ -64,7 +64,7 @@ async function getMap(
         type: "map",
         tooltip: {
           headerFormat: "",
-          pointFormat: `Pais: <b>{point.name}</b><br> Sociedades: <b>{point.value}</b>`,
+          pointFormat: `${leyendtitles.countryLabel}: <b>{point.name}</b><br> ${leyendtitles.societyLabel}: <b>{point.value}</b>`,
         },
         data,
         mapData,

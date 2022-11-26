@@ -10,6 +10,10 @@ $archive_page_content_options = get_option( 'archive_page_content_option_name' )
  
 $titulo = get_option('colective_title') && get_option('colective_title')!=''?get_option('colective_title'):'Mapa de Sociedades Colectivas';
 $first_option = get_option('first_option') && get_option('first_option')!=''?get_option('first_option'):'Seleccione una opción';
+
+$country_label = get_option('country_label') && get_option('country_label')!=''?get_option('country_label'):'País';
+$society_label = get_option('society_label') && get_option('society_label')!=''?get_option('society_label'):'Sociedades';
+
 $text_loading = get_option('text_loading') && get_option('text_loading')!=''?get_option('text_loading'):'Cargando espere por favor...';
 $contenido = get_option('text_description') && get_option('text_description')!=''?get_option('text_description'):'';
 ?>
@@ -88,6 +92,14 @@ $contenido = get_option('text_description') && get_option('text_description')!='
     ));
   
     ?>
+    var leyendtitles= {
+        <?php
+         echo 'countryLabel:"'.$country_label.'",';
+        echo 'societyLabel:"'.$society_label.'"';
+        ?>
+
+    }
+    
     var data = [
     
  <?php
