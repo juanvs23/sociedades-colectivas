@@ -24,6 +24,7 @@ function asipi_colective_society_get_societies(){
       );
     $args = array(
         'post_type' => 'colective_society',
+        'posts_per_page' => -1,
         'tax_query' => array(
                         array(
                             'taxonomy' => 'country_origin',

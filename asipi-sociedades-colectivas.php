@@ -11,7 +11,7 @@
  * Plugin Name:       Asipi Sociedades Colectivas
  *
  * Description:       Sociedades Colectivas
- * Version:           2.0.0
+ * Version:           2.0.1
  * Author:            Juan Carlos Avila
  * Text Domain:       asipi_colective_society
  *
